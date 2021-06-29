@@ -26,16 +26,16 @@ section {
 	display: block;
 }
 html {
-	font-size: #{$main_font_size + px};
+	font-size: #{$fontSize + px};
 }
 html,
 body {
 	height: 100%;
-	min-width: $min_width;
+	min-width: $minWidth;
 }
 body {
 	line-height: 1;
-	font-family: $font_family;
+	font-family: $fontFamily;
 	//text-rendering: optimizeLegibility;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
@@ -44,7 +44,7 @@ body {
 input,
 button,
 textarea {
-	font-family: $font_family;
+	font-family: $fontFamily;
 	font-size: inherit;
 }
 input::-ms-clear {
